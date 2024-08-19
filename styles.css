@@ -24,7 +24,7 @@ body{
 }
 
 .section-container{
-    max-width: 1400px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     padding-left: 50px;
@@ -82,6 +82,7 @@ body{
     border: 1px solid var(--pink-dark);
     border-radius: 50px;
     position: relative;
+    margin-bottom: 8px;
 }
 
 .email-container:has(input:focus) {
@@ -109,12 +110,16 @@ body{
     display: none;
 }
 
+#info-erro.active{
+    display: block;
+}
+
 
 .btn-submit{
     background: var(--pink-light);
     border: none;
-    width: 100px;
-    min-width: 100px;
+   
+    min-width: 64px;
     height: 56px;
     border-radius: 50px;
     cursor: pointer;
@@ -140,6 +145,17 @@ body{
 
 .img-woman-center{
     display: none;
+}
+
+.info-send{
+    color: #F96464 ;
+    font-size: 13px;
+    padding-left: 20px;
+    display: none;
+}
+
+.info-send.active{
+    display: block;
 }
 
 
@@ -185,9 +201,17 @@ body{
     .info{
         padding: 0px 32px 94px;
     }
+
+    .email-container input{
+        padding: 13px 20px;
+    }
+
+    .txt-container{
+        text-align: center;
+    }
+
+    
 }
-
-
 
 
 
