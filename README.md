@@ -17,7 +17,7 @@ O projeto Base Apparel é uma  página de captura de e-mails (newsletter) para u
 <br>
 Fonte: Desafio Frontend Mentor
 
-<a href="https://sara01romao.github.io/base-apparel-pagina-newsletter-html-css-javascript/" target="_blank"><strong>Acessar Desafio »</strong></a>
+<a href="https://sara01romao.github.io/base-apparel-pagina-newsletter-html-css-javascript/" target="_blank"><strong>Acessar »</strong></a>
 
 
 
